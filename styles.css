@@ -1,0 +1,48 @@
+body {
+    background-color: #edefee;
+    font-family: "Markazitext", serif;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+h1 {
+    font-size: 3rem;
+}
+h2 {
+    font-size: 2rem;
+}
+
+/* to center the logo */
+header > img {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/* to center nav elements and remove their bullet pionts */
+nav ul {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+}
+nav li {
+    display: inline-block;
+    
+}
+
+/* styling main */
+section {
+    display: flex;
+}
+article {
+    flex: 1;
+}
+
+/* styling footer */
+footer {
+    display: flex;
+}
+footer div {
+    flex: 1;
+}
